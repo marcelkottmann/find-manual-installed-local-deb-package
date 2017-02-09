@@ -1,6 +1,9 @@
 # find-manual-installed-local-deb-package
 
-Bash script to find all manual installed local deb-packages.
+
+## Intro
+
+Bash script to find all manually installed local deb-packages.
 
 Steps to find these packages:
 
@@ -12,8 +15,19 @@ Steps to find these packages:
 
 Note: Step 1 and Step 2 need root privileges.
 
+## Installation
 
-    marric@lennny ~/work/projects/find-manual-installed-local-deb-package (master #) $ ./find-manual-installed-local-deb-package.sh 
+    git clone git@github.com:pepe79/find-manual-installed-local-deb-package.git
+
+## Usage
+
+    cd find-manual-installed-local-deb-package
+    chmod a+x find-manual-installed-local-deb-package.sh
+    ./find-manual-installed-local-deb-package.sh
+
+
+## Example output 
+
     Updating package information...
     Locally installed packages outside of current apt-get sources list:
 
