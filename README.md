@@ -17,7 +17,15 @@ Note: Step 1 and Step 2 need root privileges.
 
 ## Installation
 
+Clone
+
     git clone git@github.com:pepe79/find-manual-installed-local-deb-package.git
+
+OR Download
+
+    wget -O find-manual-installed-local-deb-package.zip https://github.com/pepe79/find-manual-installed-local-deb-package/archive/master.zip
+    unzip find-manual-installed-local-deb-package.zip
+    rm find-manual-installed-local-deb-package.zip
 
 ## Usage
 
